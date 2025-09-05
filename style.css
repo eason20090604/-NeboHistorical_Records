@@ -1,0 +1,48 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header {
+  background-color: rgba(99, 255, 255, 0.925);
+    padding:  0px 0px 0px 0px ;
+    height: 90px;
+    width: 100%;
+    position:fixed;
+    
+}
+header a {
+    text-decoration: none;    /*首頁 目錄 史記消除底線*/ 
+
+}        
+header a:hover {
+    text-decoration: underline;    /*首頁 目錄 史記任一屬標移上去有底線*/ 
+
+}
+header li{
+    display: inline;
+    margin-right: 5vw;              /*首頁 目錄 史記左移*/ 
+}         
+header ul{
+    position:absolute;
+    right: 5vw;                     /*首頁 目錄 左邊定位*/ 
+    top: 0;
+    line-height: 80px;
+}         
+h1{
+    position:absolute;
+    left:3vw ;                      /*定位標題*/ 
+    top: 9px;
+
+}
+.標題  {
+  position:absolute;
+    left:1vw ;                      /*定位前言*/ 
+    top: 100px;
+    }
+.文字  {
+  background-color: #d6ccc2;
+  position:absolute;
+    left:1vw ;                      /*定位前言*/ 
+    top: 150px;
+    
+}
