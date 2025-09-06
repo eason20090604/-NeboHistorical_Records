@@ -46,3 +46,14 @@ h1{
     top: 150px;
     
 }
+
+.page {
+    text-decoration: none;
+
+}
+.page a:hover {
+    text-decoration: underline;    /*頁數標移上去有底線*/ 
+
+}
+
+
