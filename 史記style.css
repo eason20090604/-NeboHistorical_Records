@@ -14,3 +14,11 @@ h1 { text-align: center; color: #b35c5ca1; }
 .RED{ color: #ff0101;}
 
 .pagination { text-align: center; color: #b35c5ca1; }
+
+.pagination a{
+    text-decoration: none;          /*頁數消除底線*/ 
+}
+.pagination a:hover {
+    text-decoration: underline;    /* 頁數 任一屬標移上去有底線*/ 
+
+}
