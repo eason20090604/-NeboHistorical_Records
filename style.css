@@ -2,13 +2,17 @@
     padding: 0%;
     margin: 0%;
 }
+body {
+  background-color: #c5ffff;  /* 米棕色 */
+  margin: 0;  /* 避免瀏覽器預設空白 */
+}
 header {
-  background-color: rgba(99, 255, 255, 0.925);
+  background: linear-gradient(to bottom, #53e1e6 0%, #c5ffff 100%);
     padding:  0px 0px 0px 0px ;
     height: 90px;
     width: 100%;
     position:fixed;
-    
+    border-bottom: 4px #8cffff;
 }
 header a {
     text-decoration: none;    /*首頁 目錄 史記消除底線*/ 
@@ -32,35 +36,77 @@ h1{
     position:absolute;
     left:3vw ;                      /*定位標題*/ 
     top: 9px;
-    font-size: 290%;
+
 }
 .標題  {
-  font-size: x-large;    
+  font-size: 20px;  
   position:absolute;
-    left:1vw ;                      /*定位副標*/ 
-    top: 100px;
+    left:2vw ;                      /*定位副標*/ 
+    top: 80px;
     }
 .文字  {
   
   position:absolute;
     left:1vw ;                      /*定位內容*/ 
     top: 150px;
-    font-size: larger;
+    font-size: x-large;
+    
+}
+.文字 a{
+    text-decoration: none;          /*目錄消除底線*/ 
+}
+.文字 a:hover {
+    text-decoration: underline;    /* 目錄 任一屬標移上去有底線*/ 
+
 }
 
-.page {
-    text-decoration: none;
+.絲經目錄 {
+    display: flex;       /* 水平排列 */
+    gap: 20px;           /* 欄位之間的距離 */
+    padding: 10px;
+    /*border-left: 4px solid #b35c5c;*/
+    background-color: #c5ffff;
+    
+    position: absolute; /* 或 relative, fixed 等 */
+    top: 130px;
+    left: 20px;
+
+                                            }
+
+
+
+.目錄13個一組 {
+  padding: 10px;
+    border-left: 4px solid #b35c5c;
+    background-color: #e0e0e0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 12px;    /* 邊角圓滑 */
+    line-height: 1.8;     
+    font-size: 30px;
+    
+}
+
+
+
+.目錄13個一組 a{
+    text-decoration: none;          /*目錄消除底線*/ 
+}
+.目錄13個一組 a:hover {
+    text-decoration: underline;    /* 目錄 任一屬標移上去有底線*/ 
 
 }
-.page a:hover {
-    text-decoration: underline;    /*頁數標移上去有底線*/ 
 
+
+
+
+
+img {
+  max-width: 20px;
+  height: auto;
 }
 
-
-
-
-
-
-
-
+@media (max-width: 768px) {
+  img {
+    width: 60%; /* 手機時縮小 */
+  }
+}
