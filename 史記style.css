@@ -13,7 +13,7 @@ h1 { text-align: center; color: #b35c5ca1; }
 
 .RED{ color: #ff0101;}
 
-.pagination { text-align: center; color: #b35c5ca1;ont-size: 350%; }
+.pagination { text-align: center; color: #b35c5ca1;font-size: 350%; }
 
 .pagination a{
     text-decoration: none;          /*頁數消除底線*/ 
