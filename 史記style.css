@@ -2,7 +2,7 @@
 
 body { font-family: "微軟正黑體", sans-serif; background-color: #fdf6f0; padding: 20px; }
 
-h1 { text-align: center; color: #b35c5ca1; }
+h1 { text-align: center; color: #b35c5ca1;font-size: 300%; }
 
 .event { margin-bottom: 20px; padding: 10px; border-left: 4px solid #b35c5c;
      background-color: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
