@@ -32,7 +32,7 @@ h1{
     position:absolute;
     left:3vw ;                      /*定位標題*/ 
     top: 9px;
-    font-size: 300%;
+    font-size: 290%;
 }
 .標題  {
   font-size: x-large;    
@@ -56,6 +56,7 @@ h1{
     text-decoration: underline;    /*頁數標移上去有底線*/ 
 
 }
+
 
 
 
