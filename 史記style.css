@@ -24,11 +24,11 @@ h1 { text-align: center; color: #b35c5ca1;font-size: 300%; }
 }
 .pictureintroduce{
     display: flex;
-    gap: 26px;
-    font-size:medium;
+    gap: 22px;
+    font-size:x-large;
 }
 .picture{   
   width: 40px;
-  margin: 25px;   
+  margin: 30px;   
 }
 
