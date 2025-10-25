@@ -22,3 +22,20 @@ h1 { text-align: center; color: #b35c5ca1;font-size: 300%; }
     text-decoration: underline;    /* 目錄 任一屬標移上去有底線*/ 
 
 }
+.pictureintroduce{
+    display: flex;
+    gap: 26px;
+    font-size:medium;
+}
+.picture{   
+  width: 40px;
+  margin: 25px;   
+}
+.picture2{   
+  width: 30px;
+  margin: 10px;   
+}
+.picture3{   
+  width: 30px;
+  margin: 10px;   
+}
